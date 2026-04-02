@@ -1,18 +1,4 @@
--- return {
---   {
---     "saghen/blink.cmp",
---     opts = {
---       keymap = {
---         preset = "enter",
---         ["<Tab>"] = { "select_next", "snippet_forward", "fallback" },
---         ["<S-Tab>"] = { "select_previous", "snippet_backward", "fallback" },
---         ["<CR>"] = { "select_and_confirm", "fallback" },
---       },
---     },
---   },
--- }
---
--- if true then return end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+if true then return end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- This will run last in the setup process.
 -- This is just pure lua so anything that doesn't
