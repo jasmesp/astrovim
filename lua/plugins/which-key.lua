@@ -2,7 +2,7 @@ return {
   {
     "folke/which-key.nvim",
     opts = {
-      preset = "modern",
+      preset = "helix",
       delay = 0,
     },
   },
